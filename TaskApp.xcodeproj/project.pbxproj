@@ -21,6 +21,10 @@
 		C4BDAEA02E80769100B803C9 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDAE9F2E80769100B803C9 /* AddTaskViewController.swift */; };
 		C4BDAEA32E807A3200B803C9 /* MockTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDAEA22E807A3200B803C9 /* MockTaskView.swift */; };
 		C4BDAEA52E807A4700B803C9 /* TaskPresenterIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDAEA42E807A4700B803C9 /* TaskPresenterIntegrationTests.swift */; };
+		C4BDAEAC2E80827400B803C9 /* Cobertura.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BDAEAB2E80827400B803C9 /* Cobertura.png */; };
+		C4BDAEAE2E80843100B803C9 /* add_task.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BDAEAD2E80843100B803C9 /* add_task.png */; };
+		C4BDAEB02E80844200B803C9 /* task_list.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BDAEAF2E80844200B803C9 /* task_list.png */; };
+		C4BDAEB22E8084A200B803C9 /* swipe_task.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BDAEB12E8084A200B803C9 /* swipe_task.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,11 @@
 		C4BDAE9F2E80769100B803C9 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		C4BDAEA22E807A3200B803C9 /* MockTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaskView.swift; sourceTree = "<group>"; };
 		C4BDAEA42E807A4700B803C9 /* TaskPresenterIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPresenterIntegrationTests.swift; sourceTree = "<group>"; };
+		C4BDAEA62E80809D00B803C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C4BDAEAB2E80827400B803C9 /* Cobertura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cobertura.png; sourceTree = "<group>"; };
+		C4BDAEAD2E80843100B803C9 /* add_task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_task.png; sourceTree = "<group>"; };
+		C4BDAEAF2E80844200B803C9 /* task_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = task_list.png; sourceTree = "<group>"; };
+		C4BDAEB12E8084A200B803C9 /* swipe_task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_task.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,8 @@
 		C4BDAE3D2E80746000B803C9 = {
 			isa = PBXGroup;
 			children = (
+				C4BDAEA72E8081CB00B803C9 /* Capturas */,
+				C4BDAEA62E80809D00B803C9 /* README.md */,
 				C4BDAE832E80747100B803C9 /* TaskApp */,
 				C4BDAE8C2E80747500B803C9 /* TaskAppTests */,
 				C4BDAE902E80747900B803C9 /* TaskAppUITests */,
@@ -180,6 +191,17 @@
 				C4BDAEA22E807A3200B803C9 /* MockTaskView.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		C4BDAEA72E8081CB00B803C9 /* Capturas */ = {
+			isa = PBXGroup;
+			children = (
+				C4BDAEAB2E80827400B803C9 /* Cobertura.png */,
+				C4BDAEAD2E80843100B803C9 /* add_task.png */,
+				C4BDAEAF2E80844200B803C9 /* task_list.png */,
+				C4BDAEB12E8084A200B803C9 /* swipe_task.png */,
+			);
+			path = Capturas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,8 +317,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4BDAE872E80747100B803C9 /* Assets.xcassets in Resources */,
+				C4BDAEB02E80844200B803C9 /* task_list.png in Resources */,
+				C4BDAEAC2E80827400B803C9 /* Cobertura.png in Resources */,
 				C4BDAE892E80747100B803C9 /* LaunchScreen.storyboard in Resources */,
+				C4BDAEAE2E80843100B803C9 /* add_task.png in Resources */,
 				C4BDAE8A2E80747100B803C9 /* Main.storyboard in Resources */,
+				C4BDAEB22E8084A200B803C9 /* swipe_task.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
