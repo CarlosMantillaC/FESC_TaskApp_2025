@@ -17,7 +17,7 @@ Permite **agregar, listar, filtrar, completar y eliminar tareas**, con validacio
 ## 📦 Instrucciones de instalación
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/CarlosMantillaC/TaskApp.git
+   git clone https://github.com/CarlosMantillaC/FESC_TaskApp_2025.git
    cd TaskApp
    ```
 
